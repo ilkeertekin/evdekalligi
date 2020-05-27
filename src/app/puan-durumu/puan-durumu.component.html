@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<div *ngFor="let season of seasons">
+    <div *ngFor="let group of season.league.groups">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">{{group.name}} </th>
+                <th scope="col">Takım</th>
+                <th scope="col">Oynanan</th>
+                <th scope="col">Galibiyet</th>
+                <th scope="col">Beraberlik</th>
+                <th scope="col">Mağlubiyet</th>
+                <th scope="col">Attığı</th>
+                <th scope="col">Yediği</th>
+                <th scope="col">Averaj</th>
+                <th scope="col">Puan</th>
+            </tr>
+            </thead>
+            <tbody *ngFor="let team of group.teams">
+                <tr>
+                    <th scope="row">{{ team.order }}</th>
+                    <td>{{ team.name }}</td>
+                    <td>{{ team.matchPlayed }}</td>
+                    <td>{{ team.win }}</td>
+                    <td>{{ team.draw }}</td>
+                    <td>{{ team.lost }}</td>
+                    <td>{{ team.goalScored }}</td>
+                    <td>{{ team.goalConceded }}</td>
+                    <td>{{ team.average }}</td>
+                    <td>{{ team.point }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

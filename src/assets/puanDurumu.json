@@ -1,0 +1,220 @@
+{
+    "season":"1",
+    "league": {
+        "name": "21-26 Nisan Ligi",
+        "groups": [
+            {
+                "name": "A Grubu",
+                "teams": [
+                    {
+                        "order": "1",
+                        "teamName": "burcing",
+                        "matchPlayed": "6",
+                        "win": "4",
+                        "draw": "2",
+                        "lost": "0",
+                        "goalScored": "12",
+                        "goalConceded": "2",
+                        "average": "10",
+                        "point": "14"
+                    },
+                    {
+                        "order": "2",
+                        "teamName": "izzetpasa",
+                        "matchPlayed": "6",
+                        "win": "2",
+                        "draw": "3",
+                        "lost": "1",
+                        "goalScored": "10",
+                        "goalConceded": "7",
+                        "average": "3",
+                        "point": "9"
+                    },
+                    {
+                        "order": "3",
+                        "teamName": "gknozd",
+                        "matchPlayed": "6",
+                        "win": "1",
+                        "draw": "3",
+                        "lost": "2",
+                        "goalScored": "14",
+                        "goalConceded": "15",
+                        "average": "-1",
+                        "point": "6"
+                    },
+                    {
+                        "order": "4",
+                        "teamName": "onrmdc",
+                        "matchPlayed": "6",
+                        "win": "1",
+                        "draw": "0",
+                        "lost": "5",
+                        "goalScored": "22",
+                        "goalConceded": "10",
+                        "average": "-12",
+                        "point": "3"
+                    }
+                ]
+            },
+            {
+                "name": "B Grubu",
+                "teams": [
+                    {
+                        "order": "1",
+                        "teamName": "burcing",
+                        "matchPlayed": "6",
+                        "win": "4",
+                        "draw": "2",
+                        "lost": "0",
+                        "goalScored": "12",
+                        "goalConceded": "2",
+                        "average": "10",
+                        "point": "14"
+                    },
+                    {
+                        "order": "2",
+                        "teamName": "izzetpasa",
+                        "matchPlayed": "6",
+                        "win": "2",
+                        "draw": "3",
+                        "lost": "1",
+                        "goalScored": "10",
+                        "goalConceded": "7",
+                        "average": "3",
+                        "point": "9"
+                    },
+                    {
+                        "order": "3",
+                        "teamName": "gknozd",
+                        "matchPlayed": "6",
+                        "win": "1",
+                        "draw": "3",
+                        "lost": "2",
+                        "goalScored": "14",
+                        "goalConceded": "15",
+                        "average": "-1",
+                        "point": "6"
+                    },
+                    {
+                        "order": "4",
+                        "teamName": "onrmdc",
+                        "matchPlayed": "6",
+                        "win": "1",
+                        "draw": "0",
+                        "lost": "5",
+                        "goalScored": "22",
+                        "goalConceded": "10",
+                        "average": "-12",
+                        "point": "3"
+                    }
+                ]
+            },
+            {
+                "name": "C Grubu",
+                "teams": [
+                    {
+                        "order": "1",
+                        "teamName": "burcing",
+                        "matchPlayed": "6",
+                        "win": "4",
+                        "draw": "2",
+                        "lost": "0",
+                        "goalScored": "12",
+                        "goalConceded": "2",
+                        "average": "10",
+                        "point": "14"
+                    },
+                    {
+                        "order": "2",
+                        "teamName": "izzetpasa",
+                        "matchPlayed": "6",
+                        "win": "2",
+                        "draw": "3",
+                        "lost": "1",
+                        "goalScored": "10",
+                        "goalConceded": "7",
+                        "average": "3",
+                        "point": "9"
+                    },
+                    {
+                        "order": "3",
+                        "teamName": "gknozd",
+                        "matchPlayed": "6",
+                        "win": "1",
+                        "draw": "3",
+                        "lost": "2",
+                        "goalScored": "14",
+                        "goalConceded": "15",
+                        "average": "-1",
+                        "point": "6"
+                    },
+                    {
+                        "order": "4",
+                        "teamName": "onrmdc",
+                        "matchPlayed": "6",
+                        "win": "1",
+                        "draw": "0",
+                        "lost": "5",
+                        "goalScored": "22",
+                        "goalConceded": "10",
+                        "average": "-12",
+                        "point": "3"
+                    }
+                ]
+            },
+            {
+                "name": "D Grubu",
+                "teams": [
+                    {
+                        "order": "1",
+                        "teamName": "burcing",
+                        "matchPlayed": "6",
+                        "win": "4",
+                        "draw": "2",
+                        "lost": "0",
+                        "goalScored": "12",
+                        "goalConceded": "2",
+                        "average": "10",
+                        "point": "14"
+                    },
+                    {
+                        "order": "2",
+                        "teamName": "izzetpasa",
+                        "matchPlayed": "6",
+                        "win": "2",
+                        "draw": "3",
+                        "lost": "1",
+                        "goalScored": "10",
+                        "goalConceded": "7",
+                        "average": "3",
+                        "point": "9"
+                    },
+                    {
+                        "order": "3",
+                        "teamName": "gknozd",
+                        "matchPlayed": "6",
+                        "win": "1",
+                        "draw": "3",
+                        "lost": "2",
+                        "goalScored": "14",
+                        "goalConceded": "15",
+                        "average": "-1",
+                        "point": "6"
+                    },
+                    {
+                        "order": "4",
+                        "teamName": "onrmdc",
+                        "matchPlayed": "6",
+                        "win": "1",
+                        "draw": "0",
+                        "lost": "5",
+                        "goalScored": "22",
+                        "goalConceded": "10",
+                        "average": "-12",
+                        "point": "3"
+                    }
+                ]
+            }
+        ]
+    }
+}
