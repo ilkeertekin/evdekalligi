@@ -16,7 +16,7 @@
                 </tr>
                 </thead>
                 <tbody *ngFor="let match of group.matches">
-                    <tr *ngIf="(playedMatches && match.match_played) ||  (!playedMatches && !match.match_played)">
+                    <tr *ngIf="(match.match_played == playedMatches)">
                         <th scope="row">{{ match.order }}</th>
                         <td>{{ match.team1_name }}</td>
                         <td>{{ match.team1_score }} - {{ match.team2_score }}</td>
